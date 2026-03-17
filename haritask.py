@@ -207,7 +207,7 @@ else:
     print("charge",a*5)
     
     
-'''
+
 
  
 #11
@@ -219,7 +219,53 @@ if (a>=18 and a<=30) and b>165:
 else:
     print("he cant")
 
+
 #12
+
+a=float(input("enter the salary"))
+b=double(input("enter the bonus "))
+c=b//100
+print(c)
+tb=a*c
+t=tb+a
+print(t)
+
+#13
+a=int(input("enter the num of electric units"))
+if a<=100:
+    print("charge",a*2)
+
+elif a>=101 and a<=200:
+    print("charge",a*3)
+
+elif a>=201 and a<=300:
+    print("charge",a*4)
+else:
+    print("charge",a*5)
+    
+'''
+
+#14
+
+a=(input("enter the new password"))
+
+
+    
+for char in a:
+    if 48<= ord(char)<=57 in a:
+        pass
+    else:
+        print("enter digit")
+    if 65<= ord(char)<=90:
+        pass
+    else:
+        print("enter upper case")
+    if 97<= ord(char)<=122:
+        pass
+    else:
+        print("enter lower case")
+
+
 
 
 
