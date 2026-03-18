@@ -223,8 +223,8 @@ else:
 #12
 
 a=float(input("enter the salary"))
-b=double(input("enter the bonus "))
-c=b//100
+b=float(input("enter the bonus "))
+c=b/100
 print(c)
 tb=a*c
 t=tb+a
@@ -243,7 +243,7 @@ elif a>=201 and a<=300:
 else:
     print("charge",a*5)
     
-'''
+
 
 #14
 
@@ -252,10 +252,13 @@ a=(input("enter the new password"))
 
     
 for char in a:
-    if 48<= ord(char)<=57 in a:
-        pass
+    if 48<= ord(char)<=57 :
+            print("d")
     else:
-        print("enter digit")
+            print("no digit")
+                
+        
+                
     if 65<= ord(char)<=90:
         pass
     else:
@@ -265,6 +268,55 @@ for char in a:
     else:
         print("enter lower case")
 
+#15
+a=(input("enter the new password"))
+
+for char in a:
+    if 48<= ord(char)<=57 or 65<= ord(char)<=90 or 97<= ord(char)<=122:
+            pass
+
+       
+    else:
+        print("invalid")
+
+
+
+#loops
+
+#1
+a=int(input("enter the num"))
+b=1
+for i in range(1,a+1):
+        b=i*b
+        print(b)
+
+
+#2
+for i in range(1,11):
+        print(i)
+
+
+a=1
+while a<=10:
+        print(a)
+        a+=1
+
+'''
+
+
+#3
+b=0
+for i in range(1,11):
+        b+=i
+print(b)
+
+
+a=1
+b=0
+while a<=10:
+        b+=a
+        print(b)
+        a+=1
 
 
 
@@ -274,5 +326,12 @@ for char in a:
 
 
 
+
+
+
+
+
+
+        
 
 
