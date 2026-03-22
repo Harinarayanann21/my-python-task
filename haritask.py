@@ -301,7 +301,7 @@ while a<=10:
         print(a)
         a+=1
 
-'''
+
 
 
 #3
@@ -315,23 +315,50 @@ a=1
 b=0
 while a<=10:
         b+=a
-        print(b)
+        
         a+=1
 
+print(b)
 
 
+#4
+a=int(input("enter the number"))
+b=1
+for i in range(100):
+        print(a*i)       
+while True:
+        print(a*b)
+        b+=1
 
 
+#5
+a=0
+b=1
+print(a)
+print(b)
 
-
-
-
-
-
-
-
-
-
+for i in range(10):
+        c=a+b
+        a=b
+        b=c
+        print(c)
         
-
-
+ '''
+#7
+a=int(input("enter the number"))
+b=str(a)
+c=len(b)
+print(a)
+g=0
+for i in range(c):
+        d=b[i]
+        e=int(d)
+        e=e**c
+        
+        g=g+e
+print(g)
+if a==g:
+        print("yes")
+        
+#8
+        
