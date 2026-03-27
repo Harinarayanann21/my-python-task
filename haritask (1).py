@@ -377,7 +377,7 @@ else:
         print("prime")
        
 
-'''
+
 
 #patterns
         
@@ -430,17 +430,63 @@ for i in range(10):
                         print(' ',end='')
                         
 print(end='\n')
-for i in range(11):
+
+
+a=4
+b=6
+for i in range(6):
+        
+        
         print(end="\n")
-        for j in range(11):
-                print(j,end='')
+        for j in range(12):
+                
+               
+                if j>a and j<b:
+                
+                        print("*",end='')
+                else:
+                        print(" ",end="")
+        a-=1
+        b+=1
+
+
+a=0
+b=10
+for i in range(6):
+        
+        
+        print(end="\n")
+        for j in range(12):
+                
+               
+                if j>a and j<b:
+                
+                        print("*",end='')
+                else:
+                        print(" ",end="")
+        a+=1
+        b-=1
 
 
 
+a=4
+b=6
+for i in range(6):
+        
+        
+        print(end="\n")
+        for j in range(12):
+                
+               
+                if j==a and j==b:
+                        print("*",end='')
+                else:
+                        print(" ",end="")
+        a-=1
+        b+=1
 
 
-
-
+'''
 
 
 
